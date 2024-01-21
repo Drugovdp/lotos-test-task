@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.filterForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 20px 0;
+}
+
+button {
+    width: 120px;
+    background-color: aquamarine;
+    border-color: aquamarine;
+    margin-left: 10px;
+}
+
+.resultFilter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.itemUsers, .headerKey {
+    display: flex;
+}
+
+table {
+    width: 100%;
+    border: 1px slategrey solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead {
+    margin: 5px;
+}
+
+th, td {
+    height: 30px;
+    border: 1px slategrey solid;
+}
